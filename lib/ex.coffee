@@ -265,7 +265,8 @@ class Ex
     @write(args)
 
   xit: (args) => @wq(args)
-
+  
+  x: (args) => @wq(args)
 
   split: ({ range, args }) ->
     args = args.trim()
